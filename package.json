@@ -1,0 +1,23 @@
+{
+  "name": "marbles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build -d docs --public-url https://pardo.github.io/marbles/ index.html",
+    "serve": "parcel serve --no-autoinstall index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pardo/marbles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pardo/marbles/issues"
+  },
+  "homepage": "https://github.com/pardo/marbles#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.9.7"
+  }
+}
