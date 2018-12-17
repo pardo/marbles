@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "parcel build -d docs --public-url https://pardo.github.io/marbles/ index.html",
-    "serve": "parcel serve --no-autoinstall index.html"
+    "serve": "parcel serve --no-autoinstall index.html",
+    "ncu": "ncu"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/pardo/marbles#readme",
   "dependencies": {
-    "parcel-bundler": "^1.9.7"
+    "npm-check-updates": "^2.15.0",
+    "parcel-bundler": "^1.10.3"
   }
 }
